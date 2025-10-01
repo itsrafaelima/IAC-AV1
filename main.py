@@ -37,11 +37,13 @@ def main():
 
     # 2. BUSCA GULOSA
     # escolhe expandir sempre o nó com menor custo, o “mais promissor”
+    # segue sempre o caminho que parece levar mais direto até o objetivo, mas pode se enganar
     print("\n\n┌─ EXECUTANDO BUSCA GULOSA...")
     greedy_node = greedy_best_first_graph_search(problem, problem.heuristic)
     display_solution(greedy_node, "BUSCA GULOSA")
 
     # 3. BUSCA A*
+    # segue o caminho que parece bom, mas sem esquecer o que já foi percorrido. é mais cauteloso.
     print("\n\n┌─ EXECUTANDO BUSCA A*...")
     astar_node = astar_search(problem, problem.heuristic)
     display_solution(astar_node, "BUSCA A*")
