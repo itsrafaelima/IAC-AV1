@@ -1,7 +1,7 @@
 ## 👤 Alunos
-Daniel Rodrigues Guarilha - 06003391
-Marcela de Oliveira Martins Pereira - 06008491
-Rafael Pereira Lima - 06003197
+- Daniel Rodrigues Guarilha - 06003391
+- Marcela de Oliveira Martins Pereira - 06008491
+- Rafael Pereira Lima - 06003197
 
 # Problema dos Recipientes com Água (9L, 4L)
 
