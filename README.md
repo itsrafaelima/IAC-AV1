@@ -40,8 +40,8 @@ derramando-a no chão, o problema consiste em obter 6 litros de água.
 2. **Encher recipiente de 4L:** (r9, r4) → (r9, 4)
 3. **Esvaziar recipiente de 9L:** (r9, r4) → (0, r4)
 4. **Esvaziar recipiente de 4L:** (r9, r4) → (r9, 0)
-5. **Tranferir do recipiente de 9L para o de 4L:** (r9, r4) → (r9 - t, r4 + t) onde t = min(r9, 4 - r4)
-6. **Tranferir do recipiente de 4L para o de 9L:** (r9, r4) → (r9 + t, r4 - t) onde t = min(r4, 9 - r9)
+5. **Transferir do recipiente de 9L para o de 4L:** (r9, r4) → (r9 - t, r4 + t) onde t = min(r9, 4 - r4)
+6. **Transferir do recipiente de 4L para o de 9L:** (r9, r4) → (r9 + t, r4 - t) onde t = min(r4, 9 - r9)
 
 ---
 
