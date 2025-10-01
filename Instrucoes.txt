@@ -1,0 +1,8 @@
+01. Abra o arquivo main.py 
+02. Instale a biblioteca "aima3" em seu terminal do Visual Studio Code
+03. Após a instalação, dê Run no projeto, ainda no arquivo main.py
+04. O resultado irá aparecer no terminal do VSCODE
+
+Bônus: Pra ficar mais bonito visualmente, você pode dar run no projeto também pelo CMD, porém siga os mesmos passos descritos anteriormente.
+
+Leia o README.md para entender melhor as justificativas de escolha da Busca em Largura
