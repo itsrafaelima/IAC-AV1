@@ -1,4 +1,5 @@
-from aima3.search import breadth_first_tree_search, greedy_best_first_graph_search, astar_search
+from aima3.search import breadth_first_tree_search, greedy_best_first_graph_search, astar_search, \
+    depth_first_tree_search, iterative_deepening_search, depth_limited_search
 
 from entities.water_recipients_problem import WaterRecipientsProblem
 from helpers.interface_helper import display_solution, node_depth
@@ -17,6 +18,22 @@ def main():
     print("\n\n┌─ EXECUTANDO BUSCA CEGA...")
     bfs_node = breadth_first_tree_search(problem)
     display_solution(bfs_node, "BUSCA EM LARGURA")
+
+    # EXTRA-1 BUSCA EM PROFUNDIDADE (BUSCA CEGA) - teste experimental
+    # print("\n\n┌─ EXECUTANDO BUSCA CEGA - BUSCA EM PROFUNDIDADE...")
+    # dfs_node = depth_first_tree_search(problem)  # resultou em Memory Error sem limitar a profundidade
+    # display_solution(dfs_node, "BUSCA EM PROFUNDIDADE")
+
+    # EXTRA-2. BUSCA EM PROFUNDIDADE LIMITADA (BUSCA CEGA) - teste experimental
+    # print("\n\n┌─ EXECUTANDO BUSCA CEGA - DFS LIMITADA...")
+    # limit = 10 # se não escolher o adequado faz mais passos do que o necessário
+    # dfs_limited_node = depth_limited_search(problem, limit) # se não escolher um limite certo, a execução falha
+    # display_solution(dfs_limited_node, f"DFS LIMITADA (limite={limit})")
+
+    # EXTRA-3 BUSCA EM PROFUNDIDADE ITERATIVA (BUSCA CEGA) - teste experimental
+    # print("\n\n┌─ EXECUTANDO BUSCA CEGA - BUSCA EM PROFUNDIDADE ITERATIVA...")
+    # ids_node = iterative_deepening_search(problem) # reexplora nós
+    # display_solution(ids_node, "BUSCA EM PROFUNDIDADE ITERATIVA")
 
     # 2. BUSCA GULOSA
     # escolhe expandir sempre o nó com menor custo, o “mais promissor”
