@@ -70,7 +70,7 @@ O problema dos recipientes de água (9L e 4L) é um clássico problema de espaç
 #### 2.2. Busca em Profundidade Iterativa
 
 - A iterativa, cada vez que o limite de profundidade aumenta, o algoritmo reinicia desde a raiz. 
-- Ela garante solução ótima, mas repete muito trabalho, sendo menos eficiente que BFS nesse espaço pequeno.
+- Ela garante solução ótima, mas repete muito trabalho, sendo menos eficiente que a Busca por Largura nesse espaço pequeno.
 
 #### 3. Busca em Largura
 
